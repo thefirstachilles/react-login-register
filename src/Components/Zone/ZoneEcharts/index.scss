@@ -1,0 +1,16 @@
+// .row{
+//     display: flex;
+// .col{
+//     width: 50%;
+// }
+// }
+
+@import '~antd/dist/antd.css';
+.echarts-page{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(18, 16, 24);
+    .ant-row{
+        margin: 1rem;
+    }
+}

@@ -1,0 +1,59 @@
+*{
+    font-family: "Roboto", sans-serif
+    
+}
+
+.text-center.signin{
+    margin-top: 10%;
+    display: inline-block;
+    background-color: rgb(238, 167, 120);
+    opacity: 0.5;
+    animation: flash 1s;
+    animation-fill-mode: forwards;
+    h2 {
+        font-weight: 300;
+        padding-top: 1rem;
+    }
+    form {
+        display: inline-block;
+        border-radius: 2px;
+        margin: 0rem 2rem;
+    }
+    form label {
+        float: left;
+        font-size: .9rem;
+        margin: 0;
+        padding: 0
+    }
+    .primary-button{
+        margin-top: 5rem;
+        margin-right: 1rem;
+        padding: .6rem;
+        width: 10rem;
+        background: #222;
+        border: none;
+        color: #fff;
+        font-size: 1.2rem;
+        transition: all .5s;
+        cursor: pointer;
+        text-transform: capitalize;
+        // animation: fadeInUp 1s;
+        // animation-fill-mode: forwards;
+        margin-top: 2rem;
+    }
+    
+    input{
+    width: 15rem;
+    padding: .3rem;
+    border-radius: 5px;
+    outline: none;
+    border: none
+
+    }
+    .text-mute{
+        font-size: 0.5rem;
+        color: red;
+        display: block;
+    }
+
+}

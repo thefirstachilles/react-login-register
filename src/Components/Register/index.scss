@@ -1,0 +1,65 @@
+*{
+    font-family: "Roboto", sans-serif
+}
+
+.m-5-auto {
+    margin-top: 10%;
+    h2 {
+        font-weight: 300;
+        padding-top: 1rem;
+    }
+    // margin-top: 4rem;
+    display: inline-block;
+    background-color: #eea778;
+    opacity: 0.5;
+    animation: flash 1s;
+    animation-fill-mode: forwards;
+    form {
+        display: inline-block;
+        border-radius: 2px;
+        padding: 0rem 2rem;
+        // margin: 2rem 0 1rem 0
+    }
+    p{
+        margin-bottom: 0.5rem;
+    }
+    form label {
+        float: left;
+        font-size: .9rem;
+        margin: 0;
+        padding: 0
+    }
+    .primary-button {
+        // margin-top: 5rem;
+        margin-right: 1rem;
+        padding: .6rem;
+        width: 10rem;
+        background: #222;
+        border: none;
+        color: #fff;
+        font-size: 1.2rem;
+        transition: all .5s;
+        cursor: pointer;
+        text-transform: capitalize;
+        // animation: fadeInUp 1s;
+        // animation-fill-mode: forwards;
+        margin-bottom: 2rem;
+        
+    }
+    .text-mute{
+        font-size: 0.5rem;
+        color: red;
+        display: block;
+    }
+    .primary-button.inValid{
+        background-color: rgb(108, 12, 12);
+    }
+    input{
+    width: 15rem;
+    padding: .3rem;
+    border-radius: 5px;
+    outline: none;
+    border: none
+
+    }
+}
